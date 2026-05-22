@@ -270,85 +270,116 @@
             </div>
         </section>
 
-        <!-- PROJECTS -->
-        <section id="projects" class="bg-white dark:bg-black py-5 pl-20">
-            <div class="max-w-4xl mx-auto">
+      <!-- PROJECTS -->
+<section id="projects" class="bg-white dark:bg-black py-10 px-5 sm:px-8 md:px-20">
+    <div class="max-w-6xl mx-auto">
 
-                <h2 class="text-lg font-bold mb-6">Projects</h2>
+        <h2 class="text-xl font-bold mb-8 text-center md:text-left">
+            Projects
+        </h2>
 
-                <!-- GRID -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- GRID -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
 
-                    <!-- PROJECT 1 -->
-                    <div
-                        class="border border-gray-300 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-lg transition">
+            <!-- PROJECT CARD -->
+            <div
+                class="group border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-xl transition duration-300">
 
-                        <img src="project1.png" class="w-full h-48 sm:h-44 md:h-48 object-cover" alt="GALG">
+                <div class="overflow-hidden">
+                    <img src="project1.png"
+                        class="w-full h-52 sm:h-48 object-cover group-hover:scale-105 transition duration-500"
+                        alt="OJTracker">
+                </div>
 
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">OJTracker</h3>
+                <div class="p-5">
 
+                    <h3 class="text-lg font-semibold mb-3">
+                        OJTracker
+                    </h3>
 
-
-                            <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                                OJT Attendance tracking system with real-time
-                                reporting built with JavaScript, PHP, Laravel, and MySQL.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT 2 -->
-                    <div
-                        class="border border-gray-300 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-lg transition">
-
-                        <img src="project2.png" class="w-full h-48 sm:h-44 md:h-48 object-cover" alt="OJTracker">
-
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">GALG</h3>
-
-                            <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                                Restaurant Management System built with PHP,
-                                Bootstrap, JavaScript, Laravel, and MySQL.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT 3 -->
-                    <div
-                        class="border border-gray-300 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-lg transition">
-
-                        <img src="project3.png" class="w-full h-38 sm:h-44 md:h-48 object-cover"
-                            alt="QR Attendance Tracker">
-
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">QR Generation and Attendance Tracker</h3>
-
-                            <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                                QR code-based attendance tracking system with QR code generation and real-time
-                                record attendance using PHP, Laravel, and MySQL.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT 4 -->
-                    <div
-                        class="border border-gray-300 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-lg transition">
-
-                        <img src="plac.jpg" class="w-full h-48 sm:h-44 md:h-48 object-cover" alt="PLAC">
-
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">PLAC</h3>
-
-                            <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                                Case file management system with automation of case status updates and email
-                                notifications using React, Laravel, and MySQL.
-                            </p>
-                        </div>
-                    </div>
+                    <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                        OJT attendance tracking system with real-time reporting
+                        built using JavaScript, PHP, Laravel, and MySQL.
+                    </p>
 
                 </div>
             </div>
-        </section>
+
+            <!-- PROJECT 2 -->
+            <div
+                class="group border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-xl transition duration-300">
+
+                <div class="overflow-hidden">
+                    <img src="project2.png"
+                        class="w-full h-52 sm:h-48 object-cover group-hover:scale-105 transition duration-500"
+                        alt="GALG">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-semibold mb-3">
+                        GALG
+                    </h3>
+
+                    <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                        Restaurant Management System built with PHP,
+                        Bootstrap, JavaScript, Laravel, and MySQL.
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div
+                class="group border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-xl transition duration-300">
+
+                <div class="overflow-hidden">
+                    <img src="project3.png"
+                        class="w-full h-52 sm:h-48 object-cover group-hover:scale-105 transition duration-500"
+                        alt="QR Attendance">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-semibold mb-3">
+                        QR Attendance Tracker
+                    </h3>
+
+                    <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                        QR code attendance system with real-time tracking
+                        using PHP, Laravel, and MySQL.
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div
+                class="group border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden bg-white dark:bg-zinc-900 shadow-sm hover:shadow-xl transition duration-300">
+
+                <div class="overflow-hidden">
+                    <img src="plac.jpg"
+                        class="w-full h-52 sm:h-48 object-cover group-hover:scale-105 transition duration-500"
+                        alt="PLAC">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-semibold mb-3">
+                        PLAC
+                    </h3>
+
+                    <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                        Case file management system with automated
+                        notifications using React, Laravel, and MySQL.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
         <section>
             <div class="text-center text-sm text-gray-700 dark:text-gray-300 py-10">
